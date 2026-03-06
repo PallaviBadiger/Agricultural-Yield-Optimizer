@@ -1,29 +1,43 @@
-# Agricultural Yield Optimizer
+# Agricultural Yield Optimizer 🌱
 
-This project is a Machine Learning based system that predicts the best crop to grow based on environmental and soil conditions.
+##  Project Overview
+The Agricultural Yield Optimizer is a machine learning project that predicts crop yield based on soil nutrients and environmental conditions such as Nitrogen, Phosphorous, Potassium, and Rainfall.  
 
-## Features
-- Predicts suitable crops
-- Uses soil nutrients (N, P, K)
-- Considers temperature, humidity, pH, and rainfall
-- Built using Python and Machine Learning
+The goal of this project is to help farmers estimate crop production and make better agricultural decisions using data-driven insights.
 
-## Technologies Used
+---
+
+##  Features
+- Data preprocessing and cleaning
+- Feature scaling
+- Machine Learning model training
+- Random Forest model for prediction
+- Feature importance visualization
+- Crop yield prediction function
+
+---
+
+##  Technologies Used
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- Streamlit
+- Matplotlib
+- Jupyter Notebook
 
-## Project Structure
-- dataset.csv
-- model.pkl
-- app.py
-- requirements.txt
+---
 
-## How to Run
-1. Install dependencies:
-pip install -r requirements.txt
+##  Dataset
+The dataset contains agricultural data including:
 
-2. Run the application:
-streamlit run app.py
+- Nitrogen
+- Phosphorous
+- Potassium
+- Rainfall
+- Crop Yield
+
+---
+
+## Installation
+
+Clone the repository:
